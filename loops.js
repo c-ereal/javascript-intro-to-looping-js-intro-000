@@ -17,6 +17,7 @@ let countdown = n;
   return "done";
 }
 
+var n = 0
 function incrementVariable() {
   n = n + 1;
   return n;
