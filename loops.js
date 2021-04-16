@@ -17,6 +17,11 @@ let countdown = n;
   return "done";
 }
 
+function incrementVariable() {
+  n = n + 1;
+  return n;
+}
+
 function doWhileLoop(n) {
   do {
     console.log("I run once regardless.")
