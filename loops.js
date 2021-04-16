@@ -18,10 +18,6 @@ let countdown = n;
 }
 
 function doWhileLoop(n) {
-  function incrementVariable() {
-    n = n + 1;
-    return n;
-  }
   do {
     console.log("I run once regardless.")
   } while (incrementVariable() < n);
